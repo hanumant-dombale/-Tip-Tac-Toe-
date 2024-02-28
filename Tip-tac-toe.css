@@ -15,7 +15,8 @@ main{
 
 .layout{
     margin: 20px;
-    height: 60vh;
+    height: 600px;
+    width: 450px;
     display: block;
     justify-content: center;
     align-items: center;
@@ -25,14 +26,18 @@ main{
 }
 
 .container {
-    height: 40vh;
-    width: 40vh;
-    justify-content: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 25px;
+    margin-right: 25px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 
 h2 {
+    font-size: 40px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -40,21 +45,22 @@ h2 {
 }
 
 .game {
-    height: 35vmin;
-    width: 35vmin;
+    height: 350px;
+    width: 350px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 1vmin;
+    gap: 10px;
+    border: 1px solid black;
 }
 
 .box {
-    height: 10vmin;
-    width: 10vmin;
+    height: 100px;
+    width: 100px;
     border-radius: 20px;
     border: 1px solid black;
-    font: 20px sans-serif;
+    font: 30px sans-serif;
     text-align: center;
     color: black;
     background-color: #e8ee81;
@@ -66,19 +72,20 @@ h2 {
 }
 
 #reset-btn {
-    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    padding: 20px 40px 20px 40px;
     background-color: black;
     color: white;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 #new-btn{
-    padding: 10px 20px 10px 20px;
+    padding: 20px 40px 20px 40px;
     background-color: black;
     color: white;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .hide{
@@ -86,16 +93,16 @@ h2 {
 }
 
 .winner{
-    height: 20vh;
-    width: 60vh;
+    height: 200px;
+    width: 450px;
     border-radius: 20px;
     border: 1.5px solid black;
     background-color: rgba(255, 255, 255, 0.418);  
 }
 
 .mge{
-    height: 12vh;
-    font-size: 20px;
+    height: 100px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,4 +114,3 @@ header{
     align-items: center;
     justify-content: center;
 }
-
